@@ -1,0 +1,1 @@
+public class KthLargest { public static int findKthLargest(int[] arr, int k) { java.util.Arrays.sort(arr); return arr[arr.length - k]; } }
