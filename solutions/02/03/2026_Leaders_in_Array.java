@@ -1,0 +1,1 @@
+public class LeadersInArray { public static void printLeaders(int[] arr) { int max = -1; for(int i = arr.length - 1; i >= 0; i--) { if(arr[i] > max) System.out.println(arr[i]); max = Math.max(max, arr[i]); } } }
