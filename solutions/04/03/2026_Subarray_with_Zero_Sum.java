@@ -1,0 +1,1 @@
+public class ZeroSumSubarray { public static boolean hasZeroSumSubarray(int[] arr) { java.util.HashSet<Integer> set = new java.util.HashSet<>(); int sum = 0; for(int num : arr) { sum += num; if(set.contains(sum) || sum == 0) return true; set.add(sum); } return false; } }
