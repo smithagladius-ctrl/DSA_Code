@@ -1,0 +1,1 @@
+public class HouseRobber { public static int rob(int[] nums) { if(nums.length == 0) return 0; int prev = 0, curr = 0; for(int num : nums) { int temp = curr; curr = Math.max(curr, prev + num); prev = temp; } return curr; } }
